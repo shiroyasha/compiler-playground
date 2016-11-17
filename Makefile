@@ -1,7 +1,7 @@
 .PHONY: build
 
 build:
-	dmd trees.d -of./build/trees
+	dmd src/*.d -of./build/trees
 
 run:
 	./build/trees
