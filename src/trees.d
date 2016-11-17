@@ -16,7 +16,17 @@ void main() {
         ));
 
   tree.display();
+  writeln("\n");
 
   writeln("Pre order traversal");
   tree_walk.preOrder(tree);
+  writeln("\n");
+
+  writeln("In order traversal");
+  tree_walk.preOrder(tree);
+  writeln("\n");
+
+  writeln("Post order traversal");
+  tree_walk.preOrder(tree);
+  writeln("\n");
 }
