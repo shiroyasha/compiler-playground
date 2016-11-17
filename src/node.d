@@ -12,7 +12,7 @@ class Node
   this(int value, Node left = null, Node right = null) {
     this.value = value;
     this.left = left;
-    this.right = left;
+    this.right = right;
   }
 
   void display(int padding = 0) {
